@@ -10,9 +10,9 @@
     }
   ],
   "require": {
-    "php": "^8.0.2",
-    "illuminate/support": "9.x",
-    "illuminate/console": "9.x"
+    "php": "^8.1",
+    "illuminate/support": "10.x",
+    "illuminate/console": "10.x"
   },
   "autoload": {
     "psr-4": {
