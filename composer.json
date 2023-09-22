@@ -1,14 +1,16 @@
 {
   "name": "husam-tariq/auto-translator",
   "description": "Google Translation for Laravel",
-  "version": "1.1",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Husam Tariq",
-      "email": "hu22am1@gmail.com"
-    }
-  ],
+  "homepage": "https://github.com/husam-tariq/auto-translator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussam Tariq",
+            "email": "hu22am1@gmail.com",
+            "role": "Developer"
+        }
+    ],
+  
   "require": {
     "php": "^8.1",
     "illuminate/support": "10.x",
@@ -18,5 +20,22 @@
     "psr-4": {
       "HusamTariq\\autoTranslator\\": "src"
     }
-  }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+        "composer/package-versions-deprecated": true,
+        "pestphp/pest-plugin": true,
+        "phpstan/extension-installer": true
+    }
+},
+"extra": {
+    "laravel": {
+        "providers": [
+            "HusamTariq\\autoTranslator\\ServiceProvider"
+        ]
+    }
+},
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
